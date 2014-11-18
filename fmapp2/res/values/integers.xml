@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (c) 2009, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2009, 2011-2013 The Linux Foundation. All rights reserved.
+ * Copyright (C) 2014 The CyanogenMod Project
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -26,13 +27,7 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-    <item android:state_pressed="true"
-        android:drawable="@drawable/btn_arrow_right_press" />
-
-    <item
-        android:drawable="@drawable/btn_arrow_right_default" />
-
-</selector>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Look at FmSharedPreferences.java for index -->
+    <integer name="default_country_index">0</integer>
+</resources>
